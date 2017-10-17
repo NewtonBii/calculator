@@ -1,0 +1,12 @@
+li{
+  display: inline;
+  margin: 40px;
+}
+ .clickable{
+   cursor: pointer;
+
+ }
+
+ .clickable:hover{
+   text-decoration: underline;
+ }
