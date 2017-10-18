@@ -9,9 +9,8 @@ var divide = function(number1, number2) {return (number1/number2); };
 //Business logic ends here
 //Front end logic begins after.
 $(document).ready(function(){
-  var number1 = parseInt(prompt("Enter a number"));
-  var number2 = parseInt(prompt("Enter another number"));
-
+  var number1 = parseInt($("#add1").val());
+  var number2 = parseInt($("#add2").val());
   alert(add(number1, number2));
 
 });
